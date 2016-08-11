@@ -1,4 +1,5 @@
-
+	
+	<?php get_template_part('template/head');?><!-- 调用头部 <-->
 	<?php get_header();?><!-- 调用头部 -->
 	
 
@@ -29,7 +30,7 @@
 						
 						<?php the_author();?><!-- 博客作者-->
 						
-						<?php comments_popup_link('No Comments &#187;');?><!-- 博客评论 -->
+						<!-- <?php comments_popup_link('No Comments &#187;');?><!-- 博客评论 --> 
 						
 					</p>	
 					

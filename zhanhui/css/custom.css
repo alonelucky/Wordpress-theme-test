@@ -1,0 +1,15 @@
+.navigation{
+	position: fixed;
+	margin:0 auto;
+	width:100%;
+	left:0;
+	top:0;
+    z-index: 1030;
+} 
+.navbar-bg {
+  background-color: rgba(248, 248, 248, 1);
+  color:#333;
+}
+.navigation .container{
+	width:90%;
+}

@@ -1,0 +1,20 @@
+$(document).ready(function(){
+	$(document).scroll(function(){
+		var scrollTop = $(document).scrollTop();
+		if(scrollTop!=0){
+			$('body').css({
+				'padding-top':'80px'
+			});
+			$('#navbar').addClass('navbar-bg').find('a').css({
+				'color':'#222'
+			});
+		}else{
+			$('body').css({
+				'padding-top':'0'
+			});
+			$('#navbar').removeClass('navbar-bg').find('a').css({
+				'color':'#fff'
+			});
+		}
+	});
+});

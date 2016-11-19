@@ -1,0 +1,69 @@
+/*
+Theme Name: 蓝色模版仿站
+Theme URI: http://zzfqkj.com
+Author: 风擎科技技术部
+Author URI: http://zzfqkj.com
+Description: 风擎科技网站2016年改版
+Version: 0.1
+Tags: 蓝色, 简约, 大气, 国产
+*/
+
+
+/*=============
+ * 重置基础样式
+ * ============*/
+html{
+	font-size: 12px;
+}
+p{
+	margin: 0;
+}
+.clearfix:before{
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+
+/*=============
+ * 头部样式
+ * ============*/
+header{
+	background: #080808;
+}
+.header-content{
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+.header-top{
+	height:50px;
+}
+.header-top p{
+	color:#F5F5F5;
+	display: inline-block;
+	float: left;
+	background: #F0AD4E;
+}
+.header-top a{
+	color:#F5F5F5;
+	text-decoration: none;
+}
+.header-nav{
+	list-style: none;
+	display: inline-block;
+	float: right;
+	background: #F2DEDE;
+}
+.header-nav li{
+	display: inline-block;
+}
+
+.header-nav li+li{
+	border-left: 1px #F5F5F5 solid;
+	padding-left: 0.8rem;
+}
+/*=============
+ * 头部样式
+ * ============*/

@@ -1,0 +1,69 @@
+.about-us{
+    line-height: 28px;
+}
+
+a.list-group-item:hover, a.list-group-item:focus{
+    background-color:#E1EAF9;
+}
+.footer-content .social-links li.weixin a:hover{
+	background-color: #0D8609;
+}
+.footer-content .social-links li.weibo a:hover{
+	background-color: #AC2925;
+}
+.footer-content .social-links li.linkedin a:hover{
+	background-color: #005580;
+}
+.main-container .fa{
+	color:#80bfff;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color:#3d78d8;
+}
+
+.tparrows.round{
+	background-color: rgba(200, 200, 200, 0.5)
+}
+
+.sidebar .nav>li{
+	padding:0;
+}
+.newslist-page{
+	text-align:center;
+	vertical-align:middle; 
+}
+.wp-pagenavi {
+	
+	display:inline-block;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+	text-decoration: none;
+	background-color: #fafafa;
+	border: 1px solid #f3f3f3;
+	padding: 3px 5px;
+	margin: 2px;
+	display:inline-block;
+	padding:10px;
+}
+
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	border-color: #3d78d8;
+	background-color:#3d78d8;
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
